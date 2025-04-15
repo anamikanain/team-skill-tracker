@@ -24,7 +24,7 @@ export const teamMembers = pgTable("team_members", {
   name: text("name").notNull(),
   role: text("role").notNull(),
   initials: text("initials").notNull(),
-  avatarColor: text("avatar_color").notNull(), // For random color
+  avatarColor: text("avatar_color").notNull(), 
 });
 
 // Skills table
